@@ -1,6 +1,6 @@
 # Local Data Lakehouse Kurulumu: Spark, Iceberg, Trino ve MinIO
 
-Bu doküman, Docker üzerinde çalışan yerel bir Data Lakehouse mimarisi kurar. Apache Iceberg tablo formatı kullanılmakta olup, metadata yönetimi için **JDBC Catalog** ve dosya depolama için **MinIO ** yapılandırılmıştır. Ayrıca tabloda **2 aşamalı partitioning** uygulanmıştır.
+Bu doküman, Docker üzerinde çalışan yerel bir Data Lakehouse mimarisi kurar. Apache Iceberg tablo formatı kullanılmakta olup, metadata yönetimi için **JDBC Catalog** ve dosya depolama için **MinIO** yapılandırılmıştır. Ayrıca tabloda **2 aşamalı partitioning** uygulanmıştır.
 
 ![Data Lakehouse Architecture Diagram](data_lakehouse_architecture.png)
  
